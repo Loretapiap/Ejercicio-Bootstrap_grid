@@ -1,0 +1,38 @@
+
+.bg-gray {
+	background-color: #dfdfdf;
+}
+
+.bg-gray-h {
+	background-color: #929292;
+}
+
+.big {
+	font-size: 20px;
+}
+
+.tiny {
+	font-size: 11px;
+}
+
+.tx-wh {
+	color: white;
+}
+.dr {
+	position: absolute;
+	right: 25px;
+}
+h1, p, h3 {
+	padding: 5px;
+}
+
+.tiny-img {
+	width: 70px; 
+	height: 70px;
+	margin-bottom: 15px;
+}
+
+li {
+	list-style: none;
+}
+
