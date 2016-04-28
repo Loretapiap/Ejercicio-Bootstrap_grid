@@ -36,3 +36,15 @@ li {
 	list-style: none;
 }
 
+.cuerpo {
+	border-bottom: 10px solid black;
+	border-radius: 4px;
+}
+
+footer {
+	padding: 20px;
+}
+
+footer li {
+	padding: 5px;
+}
