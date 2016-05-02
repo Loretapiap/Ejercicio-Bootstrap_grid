@@ -1,3 +1,13 @@
+/*backgrounds*/
+.bk {
+	background-image: url(../img/banner3.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 500px;
+	
+
+}
 
 .bg-gray {
 	background-color: #dfdfdf;
@@ -5,6 +15,29 @@
 
 .bg-gray-h {
 	background-color: #929292;
+}
+
+.bg-section {
+	background-color: #382d3b;
+}
+
+footer {
+	background-color: #c3415d;
+}
+
+/*tipo*/
+
+.tx-wh {
+	color: whitesmoke;
+}
+
+.titulo {
+	font-size: 50px;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 2px 2px #272727;
+	padding-top: 250px;
+	padding-bottom: 250px;
+
 }
 
 .big {
@@ -18,10 +51,9 @@
 .tx-wh {
 	color: white;
 }
-.dr {
-	position: absolute;
-	right: 25px;
-}
+
+/*generales*/
+
 h1, p, h3 {
 	padding: 5px;
 }
@@ -36,15 +68,65 @@ li {
 	list-style: none;
 }
 
-.cuerpo {
-	border-bottom: 10px solid black;
-	border-radius: 4px;
-}
-
 footer {
 	padding: 20px;
+	min-height: 210px;
 }
 
 footer li {
 	padding: 5px;
 }
+
+a, a:hover {
+	color: crimson;
+}
+
+.line {
+	display: inline;
+}
+
+
+aside {
+	background-color: #fae2e7;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.tagged {
+	margin-right: 50px;
+}
+.webzone {
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #ccc;
+	color: white;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.dstdo {
+	padding: 5px;
+	background-color: Crimson;
+	color: white; 
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+
+
+/*scroll*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(224,86,76,0.4); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(224,86,76,0.8); 
+}
+
